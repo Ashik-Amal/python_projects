@@ -1,0 +1,13 @@
+This is the write command
+Python is an easy to learn programming language.
+It is widely used for web development.
+Python supports object oriented programming.
+File handling is an important concept in Python.
+This is a sample text file.
+
+Red
+Green
+White
+Black
+Pink
+Yellow
