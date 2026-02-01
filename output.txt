@@ -1,0 +1,45 @@
+
+--- Transaction Type: A ---
+DBMS Response: SUCCESS
+Spectator inserted.
+
+--- Transaction Type: B ---
+DBMS Response: SUCCESS
+Event inserted.
+
+--- Transaction Type: C ---
+DBMS Response: SUCCESS
+Spectator 100 deleted if allowed.
+
+--- Transaction Type: D ---
+DBMS Response: SUCCESS
+Event A100 deleted if allowed.
+
+--- Transaction Type: E ---
+DBMS Response: ERROR
+invalid input syntax for type integer: "100[1]"
+LINE 6:                     WHERE ecode = ' A100' AND sno = '100[1]'
+                                                            ^
+
+
+--- Transaction Type: F ---
+DBMS Response: SUCCESS
+
+--- Transaction Type: G ---
+DBMS Response: SUCCESS
+
+--- Transaction Type: H ---
+DBMS Response: SUCCESS
+
+--- Transaction Type: I ---
+DBMS Response: SUCCESS
+
+--- Transaction Type: J ---
+DBMS Response: SUCCESS
+
+--- Transaction Type: K ---
+DBMS Response: SUCCESS
+
+--- Transaction Type: L ---
+DBMS Response: SUCCESS
+All tables truncated.
